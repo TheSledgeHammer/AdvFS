@@ -1,0 +1,26 @@
+This tarfile contains AdvFS internals/design documentation.
+You'll find:
+*  Hitchhiker_2.2_9Mar06.pdf
+   This is a very comprehensive internals document for the Tru64
+   version of AdvFS.
+
+*  training directory
+   This directory includes presentation material that augments 
+   the hitchhikers guide. 
+
+*  porting_designs
+   This directory includes design documentation for the port of
+   AdvFS to HP-UX.  This mostly matches the source code in the
+   advfs_genv2_src tarball.  The documents are:
+
+   ACL_v2.0.pdf:  		ACL design spec
+   ACL-PL_Design_Doc_v1.0.pdf	ACL and AdvFS property list design
+   AdvFS_DIO_Design_ver1.0.pdf	DirectIO design
+   HPUX_ODS_Scoping.pdf		On-disk format definition
+   Snapshot_Design_V2.0.pdf	Design of snapshot support
+   ThresholdAlertsDSV.3.pdf	Design spec for file system thresholds
+   ThresholdAlertsFSV.1.pdf	Functional spec for thresholds
+   User_Prealloc_Design.pdf	Design for user control of extent allocation
+   advfs_cli_ers.pdf		Spec for the user-space components
+   small_file_design.pdf	Design for handling small files
+   storage_allocation.pdf	Overall storage allocation design

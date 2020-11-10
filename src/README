@@ -1,0 +1,15 @@
+This directory includes most of the source code for AdvFS
+as shipped for Tru64.  This includes the kernel components,
+commands and libraries.
+
+It was necessary to omit a few inconsequential files due to 
+license requirements but the source code is complete enough 
+to be a good reference for anyone interested in integrating 
+similar features into existing or new GPLv2 file systems.
+We recommend reviewing the design documentation, specifically
+the hitchhikers guide, that is also available at this site.  
+
+The code will not compile on a Tru64 system and we discourage 
+Tru64 users from trying to build and use this code on Tru64 
+systems as it will not be supported by HP.
+
