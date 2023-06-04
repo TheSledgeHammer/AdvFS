@@ -1,0 +1,16 @@
+This directory includes the source code for a second generation 
+implementation of AdvFS, including the kernel modules, commands
+and utilities.  
+
+This is the code that was ported to HP-UX.  It is functionally 
+complete and went through fairly extensive functional and stress 
+testing.  However, it should be considered beta quality and so 
+you may spot bugs.  It is recommended that you review the
+design documentation which is also available at this site
+as it will guide you through the major subsystems.
+
+This code will not build on HP-UX because it requires a
+specialized build environment.  HP-UX users are discouraged
+from attempting to build or use this code on HP-UX as it will
+not be supported by HP.
+
